@@ -1,8 +1,7 @@
 package interfaces;
-import classes.Casa;
 
-public interface Iterator {
+public interface Iterator<E> {
 	boolean hasNext();
-	Casa next();
+	E next();
 
 }
